@@ -1,0 +1,39 @@
+.follow-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    background-color:  #EEEDEB;
+  }
+  
+  .follow-us-title{
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .instagram{
+    width: 300px;
+    z-index: 2;
+  }
+  
+  .follow-us-gallery{
+    display: flex;
+    width: 100vw;
+    padding: 0;
+    margin-top: -20px;
+    gap: 8px;
+    z-index: 1;
+  }
+  
+  .follow-us-gallery li{
+    list-style-type: none;
+  }
+  
+  .follow-us-gallery li img{
+    width: 100%;
+  }
+  
+  .follow-us-alt{
+    font-weight: 700;
+    color:  #FDB4CE;
+  }  

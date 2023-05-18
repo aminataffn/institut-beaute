@@ -1,0 +1,11 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 45px;
+    background-color: #222437;
+  }
+  
+  .banner-text{
+    color: #F8F8F7;
+    font-size: 12px;
+  }

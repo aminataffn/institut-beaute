@@ -1,0 +1,27 @@
+.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E1E0DE;
+    padding: 100px 220px;
+  }
+  
+  .about-us-title{
+    font-size: 30px;
+    letter-spacing: -2px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .about-us-subtitle{
+    text-align: center;
+    font-size: 20px;
+    z-index: 2;
+  }
+  
+  .time-to-relax-img{
+    margin-top: -25px;
+    height: 110px;
+    z-index: 1;
+  }  

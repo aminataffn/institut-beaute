@@ -1,0 +1,36 @@
+.contact{
+    display: flex;
+    background-color: #3A3C5D;
+  }
+  
+  .contact-maps{
+    width: 72vw;
+    background-color: #FDB4CE;
+  }
+  
+  .contact-maps iframe{
+    border: 0;
+  }
+  
+  .contact-infos{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .info h3{
+    color: #E1E0DE;
+    text-align: center;
+  }
+  
+  .info ul{
+    padding: 0;
+  }
+  
+  .info ul li{
+    color: #E1E0DE;
+    text-align: center;
+    list-style: none;
+  }
