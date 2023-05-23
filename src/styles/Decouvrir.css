@@ -1,83 +1,54 @@
-.decouvrir{
-    height: 120vh;
-    width: 100vw;
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.card{
     background-color: #F8F8F7;
-  }
-  
-  .bloc-1{
-    height: 80vh;
-    width: 100vw;
-    display: flex;
-  }
-  
-  .bloc-1-side{
-    height: 80vh;
-    width: 50vw;
-  }
-  
-  .bloc-1-right-line{
-    height: 40vh;
-    width: 50vw;
-    display: flex;
-  }
-  
-  .bloc-1-right-line div{
-    height: 40vh;
-    width: 25vw;
-  }
-  
-  .bloc-2{
-    height: 40vh;
-    width: 100vw;
-    display: flex;
-  }
-  
-  .bloc-2-left{
-    height: 40vh;
-    width: 25vw;
-  }
-  
-  .bloc-2-right{
-    height: 40vh;
-    width: 50vw;
-  }
-  
-  .decouvrir-text{
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-  }
-  
-  #decouvrir-image1{
+    align-items: center;
+    justify-content: center;
+}
+
+#card1{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
     background: url('../assets/2.png');
     background-size: cover;
-  }
-  
-  #decouvrir-image2{
+}
+
+#card3{
     background: url('../assets/3.png');
     background-size: cover;
     background-position: center;
-  }
-  
-  #decouvrir-image3{
+}
+
+#card4{
     background: url('../assets/4.png');
     background-size: cover;
-  }
-  
-  #decouvrir-image4{
+}
+
+#card6{
     background: url('../assets/1.png');
-    background-size: cover;
-  }
-  
-  #decouvrir-image5{
+    background-size: cover; 
+}
+
+#card8{
     background: url('../assets/5.jpg');
     background-size: cover;
     background-position: 50% 75%;
-  }
-  
-  .decouvrir-button{
+}
+
+#card8{
+    grid-column: span 2;
+}
+
+.decouvrir-button{
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid #FF4286;
     border-radius: 2px;
@@ -89,4 +60,3 @@
     padding: 5px 10px;
     text-decoration: none;
   }
-  

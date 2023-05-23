@@ -13,6 +13,7 @@ function App() {
       <Banner />
       <Header />
       <AboutUs />
+      <Decouvrir />
       <FollowUs />
       <Contact />
       <Footer />

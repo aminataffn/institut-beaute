@@ -18,6 +18,7 @@ function FollowUs() {
       <div className='follow-us'>
         <p className='follow-us-title'>SUIVEZ-NOUS SUR </p>
         <img src={instagram} className='instagram' />
+
         <ul className='follow-us-gallery'>
           {photos.map((photo, index) => (
           <li className='follow-us-photo' key={index}>
@@ -25,6 +26,7 @@ function FollowUs() {
           </li>
           ))}
         </ul>
+        
         <p className='follow-us-alt'>@BEAUTYNCARE92</p>
       </div>
     )
