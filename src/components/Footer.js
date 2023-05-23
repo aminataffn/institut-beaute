@@ -15,7 +15,7 @@ function Footer() {
             <li>Accueil</li>
             <li>Prestations</li>
             <li>Contact</li>
-            <li>RESERVER</li>
+            <li><a href='https://www.planity.com/beauty-and-care-92500-rueil-malmaison' target='_blank'>RESERVER</a></li>
           </ul>
         </div>
   

@@ -16,7 +16,7 @@ function NavBar() {
               <a href="#">CONTACT</a>
             </li>
             <li className='tab'id='reserver'>
-              <a href="#">RESERVER</a>
+              <a href="https://www.planity.com/beauty-and-care-92500-rueil-malmaison" target='_blank'>RESERVER</a>
             </li>
           </ul>
         </nav>
