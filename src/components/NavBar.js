@@ -1,22 +1,23 @@
 import '../styles/NavBar.css'
 import logo from '../assets/beautyncare.jpeg'
+import { Link } from 'react-router-dom'
 
 function NavBar() {
     return (
       <nav className='nav-bar'>
-          <a href=''><img src={logo} className='logo-image'/></a>
+          <Link to='/'><img src={logo} className='logo-image'/></Link>
           <ul className='tabs'>
             <li className='tab'>
-              <a href="#">ACCUEIL</a>
+              <Link to='/'>ACCUEIL</Link>
             </li>
             <li className='tab'>
-              <a href="#">PRESTATIONS</a>
+              <Link to='/prestations'>PRESTATIONS</Link>
             </li>
             <li className='tab'>
-              <a href="#">CONTACT</a>
+              <Link to='/contact'>CONTACT</Link>
             </li>
             <li className='tab'id='reserver'>
-              <a href="https://www.planity.com/beauty-and-care-92500-rueil-malmaison" target='_blank'>RESERVER</a>
+              <a href='https://www.planity.com/beauty-and-care-92500-rueil-malmaison' target='_blank'>RESERVER</a>
             </li>
           </ul>
         </nav>
