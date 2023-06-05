@@ -14,6 +14,7 @@ class Prestations {
         }
     }
 }
+
 export const prestations = [ 
     new Prestations('Shampoing + Brushing - Cheveux courts','Cheveux', 'Brushing', true, 20),
     new Prestations('Shampoing + Brushing - Cheveux mi-longs','Cheveux', 'Brushing', true, 25),
@@ -39,3 +40,6 @@ export const prestations = [
     new Prestations('Cryothérapie Capillaire + Shampooing + Brushing - Cheveux mi-longs','Cheveux', 'Cryothérapie Capillaire', false, 80),
     new Prestations('Cryothérapie Capillaire + Shampooing + Brushing - Cheveux longs','Cheveux', 'Cryothérapie Capillaire', false, 90),
 ]
+
+export const categories = ['Cheveux']
+export const subcategories = ['Brushing', 'Lissage Nano Indien', 'Lissage Tanin', 'Lissage Organic Gold', 'Botox Capillaire', 'Cryothérapie Capillaire']
