@@ -1,16 +1,25 @@
-import { prestations, categories, subcategories } from "../datas/prestations"
+import { categories } from "../datas/prestations"
 import DropdownExample from "../components/TestDropDown"
+import React, { useState } from 'react';
 
 
 function Prestations() {
+    const [show, setShow] = useState(0);
+    console.log(categories[1].prestations)
     return (
         <div>
             <ul>
-                {categories.map((category) => (
-                    <li key={category.id}>{category}</li>
+                {categories.map((category, i) => (
+                    <button onClick={() => setShow(i)} key={category.id}>{category.name}</button>
                 ))}
             </ul>
-            <DropdownExample />
+            <ul>
+                {categories[show].prestations.map((prestation, i) => (
+                    <li key={i}>
+                        {prestation.name}
+                    </li>
+                ))}
+            </ul>
         </div>
 
     )
