@@ -52,4 +52,3 @@ export const prestations = [
 ]
 
 export const categories = ['Cheveux']
-export const subcategories = ['Brushing', 'Lissage Nano Indien', 'Lissage Tanin', 'Lissage Organic Gold', 'Botox Capillaire', 'Cryothérapie Capillaire']
