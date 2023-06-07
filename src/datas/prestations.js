@@ -21,6 +21,7 @@ class Category {
     }
      addNewPrestation(name, isFixedPrice, price){
         const prestation = new Prestation(name, this.name, isFixedPrice, price)
+        this.prestations.push(prestation)
      }
 }
 
