@@ -1,6 +1,21 @@
 import { categories } from "../datas/prestations"
-import DropdownExample from "../components/TestDropDown"
 import React, { useState } from 'react';
+
+function Element(props) {
+    return(
+        <div>
+            <div>
+                <h4>{props.element.name}</h4>
+                <p>{props.element.duration} | {props.element.getTextPrice()}</p>
+                <p>{props.element.description}</p>
+            </div>
+            <div>
+                <a href="https://www.planity.com/beauty-and-care-92500-rueil-malmaison" target="_blank"><button> Reserver </button></a>
+                <p>En savoir plus</p>
+            </div>
+        </div>
+    )
+}
 
 
 function Prestations() {
@@ -8,18 +23,17 @@ function Prestations() {
     console.log(categories[1].prestations)
     return (
         <div>
-            <ul>
+            <div>
                 {categories.map((category, i) => (
-                    <button onClick={() => setShow(i)} key={category.id}>{category.name}</button>
+                    <h4 onClick={() => setShow(i)} key={category.id}>{category.name}</h4>
                 ))}
-            </ul>
-            <ul>
+            </div>
+            <h3>{categories[show].name}</h3>
+            <div>
                 {categories[show].prestations.map((prestation, i) => (
-                    <li key={i}>
-                        {prestation.name}
-                    </li>
+                    <Element element = {prestation} key={i}/>
                 ))}
-            </ul>
+            </div>
         </div>
 
     )

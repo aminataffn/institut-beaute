@@ -10,7 +10,6 @@ function Home() {
     <div>
       <Header />
       <AboutUs />
-      <Decouvrir />
       <FollowUs />
       <Contact />
     </div>
