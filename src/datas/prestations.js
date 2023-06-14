@@ -29,9 +29,11 @@ class Category {
 
 export const categories = [new Category('Cheveux'), new Category('Soins du visage'), new Category('Soins du corps'), new Category('Rituels Hammam')]
 
-categories[0].addNewPrestation('Brushing', '2 heures', true, 20, 'Shampoing + Brushing - Cheveux courts')
-categories[0].addNewPrestation('Brushing', '2 heures', true, 25,  'Shampoing + Brushing - Cheveux mi-longs')
-categories[0].addNewPrestation('Brushing', '2 heures', true, 30,  'Shampoing + Brushing - Cheveux longs')
+
+/* Prestations : Cheveux (categories[0]) */
+categories[0].addNewPrestation('Brushing', '1 heures', true, 20, 'Shampoing + Brushing - Cheveux courts')
+categories[0].addNewPrestation('Brushing', '1 heures', true, 25,  'Shampoing + Brushing - Cheveux mi-longs')
+categories[0].addNewPrestation('Brushing', '1 heures', true, 30,  'Shampoing + Brushing - Cheveux longs')
 categories[0].addNewPrestation('Lissage Nano Indien', '2 heures', false, 180, 'Lissage Nano Indien + Shampooing + Brushing - Cheveux courts')
 categories[0].addNewPrestation('Lissage Nano Indien', '2 heures', false, 190, 'Lissage Nano Indien + Shampooing + Brushing - Cheveux mi-longs')
 categories[0].addNewPrestation('Lissage Nano Indien', '2 heures', false, 200, 'Lissage Nano Indien + Shampooing + Brushing - Cheveux longs')
@@ -48,3 +50,8 @@ categories[0].addNewPrestation('Cryothérapie Capillaire', '2 heures', false, 70
 categories[0].addNewPrestation('Cryothérapie Capillaire', '2 heures', false, 80, 'Cryothérapie Capillaire + Shampooing + Brushing - Cheveux mi-longs')
 categories[0].addNewPrestation('Cryothérapie Capillaire', '2 heures', false, 90, 'Cryothérapie Capillaire + Shampooing + Brushing - Cheveux longs')
 
+/* Prestations : Soins du visage (categories[1]) */
+/* Prestations : Soins du corps (categories[1]) */
+/* Prestations : Onglerie (categories[1]) */
+/* Prestations : Esthétique (categories[1]) */
+/* Prestations : Privatisation (categories[1]) */

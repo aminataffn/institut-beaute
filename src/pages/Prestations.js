@@ -1,6 +1,7 @@
 import { categories } from "../datas/prestations";
 import React, { useState } from 'react';
 import '../styles/Prestations.css';
+import NavBarPrestations from "../components/NavBarPrestations";
 
 function Element(props) {
     return(
@@ -12,7 +13,6 @@ function Element(props) {
             </div>
             <div className="links-prestation">
                 <a href="https://www.planity.com/beauty-and-care-92500-rueil-malmaison" target="_blank" className="button-prestation"><button> Reserver </button></a>
-                <p className="sub-button-prestation">En savoir plus</p>
             </div>
         </div>
     )
@@ -24,11 +24,7 @@ function Prestations() {
     console.log(categories[1].prestations)
     return (
         <div>
-            <div className="navbar-prestations">
-                {categories.map((category, i) => (
-                    <h4 onClick={() => setShow(i)} key={category.id}>{category.name}</h4>
-                ))}
-            </div>
+            <NavBarPrestations />
             <h3 className="title-prestation">{categories[show].name}</h3>
             <div className="all-prestations">
                 {categories[show].prestations.map((prestation, i) => (
