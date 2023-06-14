@@ -1,8 +1,8 @@
-import Contact from '../components/Contact'
-
-function ContactPage() {
+function Contact() {
     return (
-        <Contact />
+        <div>
+            
+        </div>
     )
 }
 
