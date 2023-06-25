@@ -27,7 +27,7 @@ function FollowUs() {
           ))}
         </ul>
         
-        <p className='follow-us-alt'>@BEAUTYNCARE92</p>
+        <p className='follow-us-alt'><a href='https://www.instagram.com/beautyncare92/'>@BEAUTYNCARE92</a></p>
       </div>
     )
   }

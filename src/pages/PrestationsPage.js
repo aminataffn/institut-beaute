@@ -2,9 +2,10 @@ import { categories } from "../datas/prestations";
 import React, { useState } from 'react';
 import '../styles/Prestations.css'
 import NewElement from "../components/PrestationNewElement";
+import Contact from '../components/Contact'
 
 
-function Prestations() {
+function PrestationsPage() {
     const [show, setShow] = useState(0);
     return (
         <div>
@@ -19,9 +20,10 @@ function Prestations() {
                     <NewElement element = {prestation} key={i}/>
                 ))}
             </div>
+            <Contact />
         </div>
 
     )
 }
 
-export default Prestations
+export default PrestationsPage

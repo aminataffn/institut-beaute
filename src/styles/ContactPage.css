@@ -1,0 +1,85 @@
+.contact-page{
+    background-color: #EEEDEB;
+    border-bottom: solid #EEEDEB;
+}
+
+.contact-page-header-background{
+    height: 100vh;
+    background: url(../assets/facade.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+}
+
+.contact-page-header-text{
+    background-color: #F8F8F7;
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    width: 700px;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.contact-page-header-text h3{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.contact-page-header-text p{
+    font-size: 20px;
+}
+
+.contact-page-contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin: 100px 200px;
+}
+
+.contact-page-contacts div{
+    text-align: center;
+}
+
+.contact-page-acces{
+    display: flex;
+    margin: 100px 200px;
+    background-color: #E1E0DE;
+}
+
+.contact-page-acces-text{
+    padding: 50px;
+    width: 50%;
+}
+
+.contact-page-acces-text h4{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-page-acces-map{
+    width: 60%;
+}
+
+.contact-page-acces-map iframe{
+    width: 100%;
+    border: none;
+}
+
+.contact-page-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin: 100px 200px;
+}

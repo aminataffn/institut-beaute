@@ -20,6 +20,7 @@
 
 .all-prestations{
     margin: 50px 250px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     gap: 15px;
